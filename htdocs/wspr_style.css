@@ -394,3 +394,21 @@
     text-align:center; 
     width: 1200px;
 }
+
+@media only screen and (max-width: 500px) {
+  html, body { margin:0;padding:0;font-family: Roboto,sans-serif;overflow-y: hidden; }
+  .header_mytitle, .listcontainer, #actspots_filter, #actspots_length,
+#actspots_info, #actspots_paginate, .header_nextqrg, #header_nexttx, #header_nexttxqrg  {
+    display: none
+  }
+.header_interval,.header_intervalTX { width: 50px}
+.header_time {width:12em}
+.header_qrg {width:10em}
+.header_call{width:11em}
+
+#wsprmain {display:block; width:100%}
+#panel1,#panel2,#header_info{width:100%}
+#wf img {width:500px}
+.dataTable {width:480px}
+}
+
